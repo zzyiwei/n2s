@@ -12,7 +12,7 @@ strip = ndk_path / 'toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip'
 pkg-config = ['env', 'PKG_CONFIG_LIBDIR=/dev/null', '/usr/bin/pkg-config']
 
 [host_machine]
-system = 'linux'
+system = 'android'
 cpu_family = 'x86_64'
 cpu = 'x86_64'
 endian = 'little'
